@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6s0118/v1
+canonical_location: https://kanripo.org/bkk/KR6s0118/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 青龍寺求法目錄
+  identifiers:
+    alt_id:
+    - T55n2171
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T55/T55n2171.xml
+    old_id: T55n2171
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0118_000.yaml, hash: 'sha256:fe0a18c32bf1dba0405952bdcd55e36da3796cf41cca651d6dcfe10c248c236e'}
+  - {seq: 1, filename: KR6s0118_001.yaml, hash: 'sha256:db049e6b8f14a7221f824c20945ccd4bf997a29ddd59092da062972eed21be87'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0118_001.markers.yaml, hash: 'sha256:64f36aa072165387b6a25c42ac4e725c23c609c36c95024900f8b2bf0a86973e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0118_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1610
+  label: 青龍寺求法目錄
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6s0118_T_001-mulu-1
+    span:
+    - body
+    - 42
+    - 42
+  label: 經法
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6s0118_T_001-mulu-2
+    span:
+    - body
+    - 1194
+    - 1194
+  label: 曼荼羅道具等
+  type: mulu
+  level: 1
+hash: sha256:dad56ddf213575f965b4400687d72eeceddc1f80f8630d83ec1a6a595ad053f0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

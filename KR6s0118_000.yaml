@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6s0118/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 青龍寺求法目錄
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T55/T55n2171.xml
+    old_id: T55n2171
+hash: sha256:fe0a18c32bf1dba0405952bdcd55e36da3796cf41cca651d6dcfe10c248c236e
