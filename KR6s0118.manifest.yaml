@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6s0118_000.yaml, hash: 'sha256:fe0a18c32bf1dba0405952bdcd55e36da3796cf41cca651d6dcfe10c248c236e'}
-  - {seq: 1, filename: KR6s0118_001.yaml, hash: 'sha256:db049e6b8f14a7221f824c20945ccd4bf997a29ddd59092da062972eed21be87'}
+  - {seq: 1, filename: KR6s0118_001.yaml, hash: 'sha256:c5f2f1dc3f524cf7a0119e66ec1fb2135966d640429b92e09a0f5f89b25adcce'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6s0118_001.markers.yaml, hash: 'sha256:64f36aa072165387b6a25c42ac4e725c23c609c36c95024900f8b2bf0a86973e'}
+  - {seq: 0, role: markers, filename: assets/KR6s0118_000.markers.yaml, hash: 'sha256:fcea46c1463efa5fdb7668aeb040cd3d3398afbb9da8a3cc34f78956293f8025'}
+  - {seq: 1, role: markers, filename: assets/KR6s0118_001.markers.yaml, hash: 'sha256:66aa6b67ddbdec8be39951080fb0814e968f0a07169b6c1175216fd89e417353'}
 table_of_contents:
 - ref:
     seq: 1
@@ -56,7 +57,4 @@ table_of_contents:
   label: 曼荼羅道具等
   type: mulu
   level: 1
-hash: sha256:dad56ddf213575f965b4400687d72eeceddc1f80f8630d83ec1a6a595ad053f0
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7ef02f5dfc03b4b2e606a23cd7e5773ac8931f1b7122a631b68b6137c021ce62
