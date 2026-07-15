@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6s0118/v1
 canonical_location: https://kanripo.org/bkk/KR6s0118/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 青龍寺求法目錄
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6s0118_000.yaml, hash: 'sha256:fe0a18c32bf1dba0405952bdcd55e36da3796cf41cca651d6dcfe10c248c236e'}
-  - {seq: 1, filename: KR6s0118_001.yaml, hash: 'sha256:c5f2f1dc3f524cf7a0119e66ec1fb2135966d640429b92e09a0f5f89b25adcce'}
+  - {seq: 1, filename: KR6s0118_001.yaml, hash: 'sha256:1fc5b70892c291252f8816159e3d9b60990bf12cc8ab6d5efb7920939c579ce9'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6s0118_000.markers.yaml, hash: 'sha256:fcea46c1463efa5fdb7668aeb040cd3d3398afbb9da8a3cc34f78956293f8025'}
-  - {seq: 1, role: markers, filename: assets/KR6s0118_001.markers.yaml, hash: 'sha256:66aa6b67ddbdec8be39951080fb0814e968f0a07169b6c1175216fd89e417353'}
+  - {seq: 1, role: markers, filename: assets/KR6s0118_001.markers.yaml, hash: 'sha256:972c2901e5546c0d1575ed0592d14f06324b4b426c9932637bbf58f9f6bf9152'}
 table_of_contents:
 - ref:
     seq: 1
@@ -57,4 +57,7 @@ table_of_contents:
   label: 曼荼羅道具等
   type: mulu
   level: 1
-hash: sha256:7ef02f5dfc03b4b2e606a23cd7e5773ac8931f1b7122a631b68b6137c021ce62
+hash: sha256:b696e5f38f60c39a566bf44ca79364dc0722e88f7cc9d19c424d4bf8ca93b6ee
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
